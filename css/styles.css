@@ -1,0 +1,280 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    border: 0;
+
+
+    /* background-color: lightcoral; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: arial,sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 3.5em;
+
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: gray; */
+}
+
+#gmail {
+    width: 4em;
+    height: 3.5em;
+
+    /* background-color: darkgreen; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#images {
+    width: 4em;
+    height: 3.5em;
+
+    /* background-color: lightgreen; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apps {
+    width: 3.5em;
+    height: 3.5em;
+
+    /* background-color: green; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-rows: 0.3em 0.3em 0.3em;
+    grid-template-columns: 0.3em 0.3em 0.3em;
+    grid-column-gap: 0.1em;
+    grid-row-gap: 0.1em;
+}
+
+#points{
+
+    border-radius: 50%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#photo {
+    width: 3.5em;
+    height: 3.5em;
+
+    /* background-color: greenyellow; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userPhoto{
+    width: 2em;
+    height: 2em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#body {
+    width: 100%;
+    /* height: 35.3em; */
+    height: 39.4em;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+#content {
+    width: 27em;
+    height: 30em;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 13em;
+}
+
+#search {
+    width: 27em;
+    height: 1.8em;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#lens {
+    width: 2em;
+    height: 1.8em;
+    /* background-color: blue; */
+
+    border-radius: 48% 0 0 48%;
+    border: 0.1em #a5a5a5;
+    border-style: solid none solid solid;
+}
+
+#text {
+    width: 18em;
+    height: 1.8em;
+    /* background-color: yellow; */
+    border: 0.1em #a5a5a5;
+    border-style: solid none solid none;
+}
+
+#searcher{
+    width: 18em;
+    height: 2em;
+    border: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+#microphone {
+    width: 2em;
+    height: 1.8em;
+    /* background-color: blue; */
+
+    border-radius: 0 48% 48% 0;
+    border: 0.1em #a5a5a5;
+    border-style: solid solid solid none;
+}
+
+#link{
+    width: 27em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+
+    width: 27em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#links2 {
+
+    width: 23em;
+    height: 4em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+#link1 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link2 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link3 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link4 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link5 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link6 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link7 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#link8 {
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 0.1em solid black;
+}
+
+#footer {
+    width: 100%;
+    height: 2.2em;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: blue;git  */
+}
+
+#personalize {
+    width: 4em;
+    height: 2.2em;
+    /* background-color: rgb(74, 74, 181); */
+}
+
+#pencil{
+    width: 2em; 
+    height:1.95em;
+}
